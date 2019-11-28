@@ -4,7 +4,8 @@
     <title>Topic
         <?oxy_comment_start author="Soichiro Shinozaki" timestamp="20191128T160225+0000" comment="このタイトルは変えたほうが良いです"?>title<?oxy_comment_end?></title>
     <body>
-        <p>This is a paragraph.</p>
+        <p>This is a
+                <?oxy_insert_start author="Soichiro Shinozaki" timestamp="20191128T160804+0000" type="surround"?><b><?oxy_insert_end?>paragraph</b>.</p>
         <p>Save this as a new topic.</p>
         <p>Add a new
             <?oxy_delete author="Soichiro Shinozaki" timestamp="20191128T160645+0000" content="paragraph"?><?oxy_insert_start author="Soichiro Shinozaki" timestamp="20191128T160645+0000"?>sentence<?oxy_insert_end?>.</p>
@@ -37,6 +38,9 @@
                 </tgroup>
             </table>
         </p>
+        <?oxy_insert_start author="Soichiro Shinozaki" timestamp="20191128T160822+0000"?>
+        <p>Click <uicontrol idref="ui0001">Save</uicontrol>.</p>
+        <?oxy_insert_end?>
     </body>
 </topic>
 <?oxy_options track_changes="on"?>
