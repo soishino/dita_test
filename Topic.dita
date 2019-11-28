@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_xmp_wbn_wjb">
-    <title></title>
+    <title>Topic title</title>
     <body>
-        <p></p>
+        <p>This is a paragraph.</p>
+        <p>Save this as a new topic.</p>
     </body>
 </topic>
