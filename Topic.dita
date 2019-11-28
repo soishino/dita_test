@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_xmp_wbn_wjb">
-    <title>Topic title</title>
+    <title>Topic
+        <?oxy_comment_start author="Soichiro Shinozaki" timestamp="20191128T160225+0000" comment="このタイトルは変えたほうが良いです"?>title<?oxy_comment_end?></title>
     <body>
         <p>This is a paragraph.</p>
         <p>Save this as a new topic.</p>
