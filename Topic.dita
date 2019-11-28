@@ -6,6 +6,37 @@
     <body>
         <p>This is a paragraph.</p>
         <p>Save this as a new topic.</p>
-        <p>Add a new paragraph.</p>
+        <p>Add a new
+            <?oxy_delete author="Soichiro Shinozaki" timestamp="20191128T160645+0000" content="paragraph"?><?oxy_insert_start author="Soichiro Shinozaki" timestamp="20191128T160645+0000"?>sentence<?oxy_insert_end?>.</p>
+        <p>
+            <table id="table_cjj_lcn_wjb">
+                <title>表のテスト</title>
+                <tgroup cols="2">
+                    <colspec colname="newCol3" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol4" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>a</entry>
+                            <entry/>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>a</entry>
+                            <entry>b</entry>
+                        </row>
+                        <row>
+                            <entry>c</entry>
+                            <entry>d</entry>
+                        </row>
+                        <row>
+                            <entry>e</entry>
+                            <entry>f</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
     </body>
 </topic>
+<?oxy_options track_changes="on"?>
